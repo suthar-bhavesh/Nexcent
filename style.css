@@ -8,7 +8,7 @@
 }
 
 .container {
-    max-width: 1002px;
+    max-width: 802px;
     margin: 0 auto;
     padding: 0 13px;
 }
@@ -60,22 +60,18 @@ i {
 .main-section {
     background-color: #F5F7FA;
     width: 100%;
-    height: 416px;
 }
 
 .main-carousel {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 416px;
 }
 
 .main-carousel img {
     width: 273px;
     height: 284px;
-}
-
-.carousel-content {
-    padding: 112px 0 112px 0;
 }
 
 .carousel-content>h1 {
@@ -165,7 +161,10 @@ i {
 }
 
 .manage-community {
-    display: block;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
@@ -174,6 +173,7 @@ i {
     font-weight: 600;
     line-height: 31px;
     color: #4D4D4D;
+    max-width: 404px;
 }
 
 .manage-community>p {
@@ -214,6 +214,7 @@ i {
     line-height: 14px;
     color: #717171;
     margin-top: 6px;
+    max-width: 174px;
 }
 
 .pixelgrade-section {
@@ -253,4 +254,81 @@ i {
     outline: none;
     color: #fff;
     font-size: 11px;
+}
+
+.localbuisness {
+    background-color: #F5F7FA;
+}
+
+.buisness-calc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0;
+}
+
+.local-para{
+    max-width: 376px;
+}
+
+.buisness-data{
+    width: 400px;
+}
+
+.local-para h3{
+    max-width: 300px;
+    color: #717171;
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 25px;
+    margin-bottom: 6px;
+}
+
+.local-para span{
+    color: #4CAF4F;
+}
+
+.local-para p{
+    color: #18191F;
+    font-size: 11px;
+    line-height: 16px;
+    max-width: 375px;
+}
+
+.buisness-count {
+    display: flex;
+    max-width: 376px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buisness-count img {
+    width: 33px;
+    height: 33px;
+    margin-right: 11px;
+}
+
+#buisness-data{
+    padding-top: 25px;
+}
+
+.member, .clubs, .event-booking, .payment{
+    padding-right: 21px;
+    width: 176px;
+}
+
+.buisness-data p {
+    max-width: 100px;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.buisness-data span {
+    max-width: 133px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #717171;
+    font-weight: normal;
 }
