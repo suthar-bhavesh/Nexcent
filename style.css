@@ -267,15 +267,15 @@ i {
     padding: 45px 0;
 }
 
-.local-para{
+.local-para {
     max-width: 376px;
 }
 
-.buisness-data{
+.buisness-data {
     width: 400px;
 }
 
-.local-para h3{
+.local-para h3 {
     max-width: 300px;
     color: #717171;
     font-weight: 600;
@@ -284,11 +284,11 @@ i {
     margin-bottom: 6px;
 }
 
-.local-para span{
+.local-para span {
     color: #4CAF4F;
 }
 
-.local-para p{
+.local-para p {
     color: #18191F;
     font-size: 11px;
     line-height: 16px;
@@ -308,11 +308,14 @@ i {
     margin-right: 11px;
 }
 
-#buisness-data{
+#buisness-data {
     padding-top: 25px;
 }
 
-.member, .clubs, .event-booking, .payment{
+.member,
+.clubs,
+.event-booking,
+.payment {
     padding-right: 21px;
     width: 176px;
 }
@@ -331,4 +334,236 @@ i {
     line-height: 16px;
     color: #717171;
     font-weight: normal;
+}
+
+.timsmith {
+    background-color: #F5F7FA;
+    height: 285px;
+    margin-top: 34px;
+}
+
+.tim-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tim-content-data {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    padding: 22px 0 22px 0;
+}
+
+.tim-para p {
+    max-width: 491px;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #717171;
+}
+
+.tim-para h3 {
+    margin-top: 11px;
+    margin-bottom: 5px;
+    color: #4CAF4F;
+    max-width: 520px;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 500;
+}
+
+.tim-para span {
+    max-width: 520px;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #89939E;
+}
+
+.client-data {
+    display: flex;
+    gap: 28px;
+    width: 520px;
+    align-items: center;
+    padding-top: 22px;
+}
+
+.meet-cust {
+    font-size: 13px !important;
+    line-height: 19px !important;
+    color: #4CAF4F !important;
+    font-weight: 500 !important;
+
+}
+
+.marketing-section {
+    margin-top: 33px;
+}
+
+.marketing-data {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.marketingheading-para {
+    margin-bottom: 11px;
+}
+
+.marketingheading-para h2 {
+    max-width: 772px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.marketingheading-para p {
+    max-width: 479px;
+    font-size: 11px;
+    line-height: 16px;
+    color: #717171;
+    margin-top: 5px;
+}
+
+.marketing-product {
+    display: flex;
+    gap: 16px;
+}
+
+.product {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.para {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #F5F7FA;
+    border-radius: 5px;
+    padding: 11px;
+    width: 220px;
+    height: 123px;
+    top: 132px;
+    filter: drop-shadow(6px 2px 4px #717171);
+}
+
+.para p {
+    max-width: 198px;
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #717171;
+    margin-bottom: 11px;
+}
+
+.para span {
+    color: #4CAF4F;
+    font-size: 13px;
+    max-width: 200px;
+}
+
+.Demo-section {
+    background-color: #F5F7FA;
+    height: 209px;
+    margin-top: 130px;
+}
+
+.demo-content {
+    text-align: center;
+    padding: 22px 0 22px 0;
+}
+
+.client-demo-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.client-demo-heading h2 {
+    max-width: 617px;
+    font-size: 44px;
+    line-height: 52px;
+}
+
+footer {
+    background-color: #263238;
+    height: 229px;
+}
+
+.company-footer {
+    display: flex;
+    gap: 140px;
+    padding-top: 44px;
+}
+
+.company-info img {
+    padding-bottom: 28px;
+    padding-right: 11px;
+}
+
+.company-info p {
+    padding-bottom: 28px;
+    max-width: 243px;
+    font-size: 9px;
+    line-height: 13px;
+    color: #F5F7FA;
+}
+
+.company-other-info {
+    display: flex;
+    gap: 68px;
+}
+
+.about-com {
+    list-style-type: none;
+    color: #fff;
+}
+
+.about-com a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 9px;
+    line-height: 13px;
+    font-weight: normal;
+}
+
+.about-com h4 {
+    margin-bottom: 16px;
+    max-width: 124px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.form-submit {
+    display: flex;
+}
+
+.submit-email-form {
+    position: relative;
+}
+
+.submit-email-form input{
+    width: 181px;
+    height: 28px;
+    padding: 6px 0px 7px 8px;
+    border-radius: 5px;
+    font-size: 9px;
+    line-height: 13px;
+    color: #ffff;
+    outline: none;
+    border: none;
+    background-color: #4A4A4A;
+}
+
+.submit-email-form i{
+    position: absolute;
+    right: 19px;
+    top: 31%;
+    transform: translateY(-25%);
+    cursor: pointer;
+    font-weight: 400;
 }
